@@ -1,0 +1,95 @@
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    background-color: #171e30b3;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid hsla(223,57%,64%,.1);
+    z-index: 100;
+}
+
+.lg-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+    z-index: 199;
+}
+
+.mb-links {
+    display: none;
+    transition: height .3s ease-in-out;
+    height: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #f3faff;
+}
+
+.navbar .burger-icon, .mb-nav-logo {
+    display: none;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar .burger-icon, .mb-nav-logo {
+    display: none;
+}
+
+button {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    pointer-events: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.navbar .links a {
+    color: #f3faffe6;
+}
+
+.navbar .nav-logo img {
+    width: 200px;
+    height: 44px;
+}
+
+.mb-links hr {
+    border: 1px solid hsla(223,35%,14%,.5);
+    margin: 5px 0;
+}
+
+.mb-links a {
+    display: block;
+    padding: 25px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #f3faff;
+}
